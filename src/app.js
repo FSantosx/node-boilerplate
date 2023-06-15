@@ -3,7 +3,7 @@ const path = require('path')
 const express = require('express')
 const app = express()
 const routes = require('./routes/routes')
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 3000
 
 app.use(routes)
 app.use(express.static(__dirname + '/webroot/'));
